@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:yourapp="http://schemas.android.com/apk/res-auto" 
+     >
+
+    <item
+        android:id="@+id/action_new"
+        android:orderInCategory="100"
+        android:icon="?attr/actionIconNew"
+        yourapp:showAsAction="always"
+        android:title="@string/newItem"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        yourapp:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+</menu>

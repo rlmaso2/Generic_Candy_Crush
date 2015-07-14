@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:yourapp="http://schemas.android.com/apk/res-auto" 
+     >
+
+    <item
+        android:id="@+id/action_done"
+        android:orderInCategory="100"
+        android:icon="?attr/actionIconDone"
+        yourapp:showAsAction="always"
+        android:title="@string/done"/>
+    <item
+        android:id="@+id/action_cancel"
+        android:orderInCategory="100"
+        android:icon="?attr/actionIconCancel"
+        yourapp:showAsAction="always"
+        android:title="@string/cancel"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        yourapp:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+</menu>

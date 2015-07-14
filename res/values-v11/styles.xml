@@ -1,0 +1,20 @@
+<resources>
+
+    <!--
+        Base application theme for API 11+. This theme completely replaces
+        AppBaseTheme from res/values/styles.xml on API 11+ devices.
+    -->
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="actionIconNew">
+            @drawable/ic_action_new_light
+        </item>
+        <item name="actionIconDone">
+            @drawable/ic_action_done_light
+        </item>
+        <item name="actionIconCancel">
+            @drawable/ic_action_cancel_light
+        </item>
+        <!-- API 11 theme customizations can go here. -->
+    </style>
+
+</resources>
